@@ -1,0 +1,12 @@
+function vowelCount(str)
+{
+	var count =0;
+	for (var index =0; index < str.length; index++)
+	{
+		if (str[index] === 'a'||str[index] ===  'e' ||str[index] === 'i' ||str[index] ===  'o' ||str[index] ===  'u')
+			count ++;
+	}
+	return count;
+}
+
+vowelCount("jjj");
